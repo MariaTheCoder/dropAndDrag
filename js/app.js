@@ -1,7 +1,7 @@
 // Select the item element
 const item = document.querySelector(".item");
 
-//Select the elements with the class box
+// Select the elements with the class box
 const boxes = document.querySelectorAll(".box");
 
 // Attach the dragstart event handler
