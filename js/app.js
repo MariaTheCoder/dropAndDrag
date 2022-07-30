@@ -24,10 +24,12 @@ function dragStart(e) {
 }
 
 function dragEnter(e) {
+  e.preventDefault();
   e.target.classList.add("drag-over");
 }
 
 function dragOver(e) {
+  e.preventDefault();
   e.target.classList.add("drag-over");
 }
 
