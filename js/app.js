@@ -46,4 +46,7 @@ function drop(e) {
 
   // add it to the drop target
   e.target.appendChild(draggable);
+
+  // display the draggable element
+  draggable.classList.remove("hide");
 }
