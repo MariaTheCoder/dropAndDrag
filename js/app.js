@@ -43,4 +43,7 @@ function drop(e) {
   // get the draggable element
   const id = e.dataTransfer.getData("text/plain");
   const draggable = document.getElementById(id);
+
+  // add it to the drop target
+  e.target.appendChild(draggable);
 }
