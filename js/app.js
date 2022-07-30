@@ -4,6 +4,10 @@ const item = document.querySelector(".item");
 //Select the elements with the class box
 const boxes = document.querySelectorAll(".box");
 
+// get the draggable element
+const id = e.dataTransfer.getData("text/plain");
+const draggable = document.getElementById(id);
+
 // Attach the dragstart event handler
 item.addEventListener("dragstart", dragStart);
 
