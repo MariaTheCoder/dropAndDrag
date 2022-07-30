@@ -22,3 +22,19 @@ function dragStart(e) {
     e.target.classList.add("hide");
   }, 0);
 }
+
+function dragEnter(e) {
+  e.target.classList.add("drag-over");
+}
+
+function dragOver(e) {
+  e.target.classList.add("drag-over");
+}
+
+function dragLeave(e) {
+  e.target.classList.remove("drag-over");
+}
+
+function drop(e) {
+  e.target.classList.remove("drag-over");
+}
